@@ -37,7 +37,8 @@ export class AppComponent {
       snaps: 0, 
       location: 'Paris'
     }
-  }
 
+    
+  }
 
 }
