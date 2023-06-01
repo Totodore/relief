@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+	important: true,
 	content: [
 	  "./src/**/*.{html,ts}",
 	],
@@ -11,6 +12,9 @@ module.exports = {
 		}, 
 		boxShadow: {
 			't-md': '0px 0px 5px rgb(0 0 0 / 0.10)',
+		}, 
+		fontFamily: {
+			'poppins': ['Poppins', 'sans-serif'],
 		}
 	  },
 	},

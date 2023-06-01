@@ -10,13 +10,27 @@ import { MatDividerModule } from '@angular/material/divider';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { ConseilsComponent } from './components/conseils/conseils.component';
+import { ForumComponent } from './components/forum/forum.component';
+import { MedecinPageComponent } from './components/medecin-page/medecin-page.component';
+import { FirstAidPageComponent } from './components/first-aid-page/first-aid-page.component';
+import { ProfilePageComponent } from './components/profile-page/profile-page.component';
+import { TitleComponent } from './components/title/title.component';
+import { CardComponent } from './components/card/card.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CompoTestComponent,
-    NavbarComponent
+    NavbarComponent,
+    ConseilsComponent,
+    ForumComponent,
+    MedecinPageComponent,
+    FirstAidPageComponent,
+    ProfilePageComponent,
+    TitleComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
