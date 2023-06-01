@@ -17,6 +17,10 @@ import { FirstAidPageComponent } from './components/first-aid-page/first-aid-pag
 import { ProfilePageComponent } from './components/profile-page/profile-page.component';
 import { TitleComponent } from './components/title/title.component';
 import { CardComponent } from './components/card/card.component';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
 
 
 @NgModule({
@@ -39,7 +43,10 @@ import { CardComponent } from './components/card/card.component';
     MatButtonModule,
     MatDividerModule,
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule, 
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,17 +1,21 @@
 <div>
     <app-title [title]="'Premiers secours'"></app-title>
 
-    <div class="w-full flex justify-center px-5 mt-5">
-        <button mat-flat-button color="warn" class="w-full h-20 rounded-xl">
-            <div class="flex flex-row items-center justify-between m-0">
-                <span class="font-poppins text-lg">Appel à l'aide</span>
+    <div class="w-full flex flex-col justify-center px-5 mt-5">
+        <a mat-flat-button href="tel:112"  color="warn" class="w-full h-20 rounded-xl items-center">
+            <div class="flex flex-row items-center justify-between m-0 h-full">
+                <span class="font-poppins text-2xl">Appel à l'aide</span>
                 <div class="flex flex-row gap-4 items-center">
                     <mat-icon fontIcon="call">call</mat-icon>
-                    <span class="font-poppins">112</span>
+                    <span class="font-poppins text-2xl">112</span>
                 </div>
-
             </div>
+        </a>
 
-        </button>
+        <div class="bg-gray-200 mt-5 rounded-xl flex flex-row p-4 items-center">
+            <mat-icon class="text-gray-400 mr-2">search</mat-icon>
+            <input type="text" placeholder="Rechercher" name="search" class="bg-gray-200 outline-none font-poppins text-lg">
+        </div>
+
     </div>
 </div>
