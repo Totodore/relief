@@ -6,6 +6,7 @@ import { ForumComponent } from './components/forum/forum.component';
 import { MedecinPageComponent } from './components/medecin-page/medecin-page.component';
 import { ProfilePageComponent } from './components/profile-page/profile-page.component';
 import { FirstAidPageComponent } from './components/first-aid-page/first-aid-page.component';
+import { FullScreenMapComponent } from './components/full-screen-map/full-screen-map.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: "help",
     component: FirstAidPageComponent
+  },
+  {
+    path: "map",
+    component: FullScreenMapComponent
   }
 
 ];

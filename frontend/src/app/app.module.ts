@@ -20,6 +20,12 @@ import { CardComponent } from './components/card/card.component';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MapComponent } from './components/map/map.component';
+import { FullScreenMapComponent } from './components/full-screen-map/full-screen-map.component';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { ForumCardComponent } from './components/forum-card/forum-card.component';
+
+
 
 
 
@@ -34,7 +40,11 @@ import { MatInputModule } from '@angular/material/input';
     FirstAidPageComponent,
     ProfilePageComponent,
     TitleComponent,
-    CardComponent
+    CardComponent,
+    MapComponent,
+    FullScreenMapComponent,
+    SearchBarComponent,
+    ForumCardComponent
   ],
   imports: [
     BrowserModule,
