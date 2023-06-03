@@ -24,6 +24,7 @@ import { MapComponent } from './components/map/map.component';
 import { FullScreenMapComponent } from './components/full-screen-map/full-screen-map.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { ForumCardComponent } from './components/forum-card/forum-card.component';
+import { MatBadgeModule } from '@angular/material/badge';
 
 
 
@@ -56,7 +57,8 @@ import { ForumCardComponent } from './components/forum-card/forum-card.component
     MatToolbarModule, 
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatBadgeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
