@@ -9,7 +9,10 @@ import { Input } from '@angular/core';
 export class ForumCardComponent implements OnInit {
   @Input() likes = 0;
   @Input() comments = 0;
-  
+  @Input() question = ''; 
+  @Input() isCertified = false;
+  @Input() tagList = [];
+
   constructor() { }
 
   ngOnInit(): void {

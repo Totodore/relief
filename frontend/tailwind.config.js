@@ -9,6 +9,7 @@ module.exports = {
 		colors: {
 			  primary:'#D6D8F2',
 			  secondary:'#4554AB',
+			  primaryBG:'#F7F9FF'
 		}, 
 		boxShadow: {
 			't-md': '0px 0px 5px rgb(0 0 0 / 0.10)',
