@@ -1,5 +1,5 @@
 <div class="bg-primaryBG w-full rounded-xl flex flex-row justify-items-start my-2 relative">
-    <!--<mat-icon class="absolute -top-2 -right-2 w-">verified_outlined</mat-icon> -->
+    <mat-icon *ngIf="isCertified" class="absolute -top-2 -right-2 material-icons-outlined">verified_outlined</mat-icon>
     <img src="assets/profile-pic.jpg" alt="profile-pic" class="w-14 h-14 rounded-full flex-grow-0 mt-4 ml-4">
     <div class="w-full ml-8 flex flex-col">
         <div class="h-8 inline-block">
