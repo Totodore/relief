@@ -35,6 +35,7 @@ import { MatChipsModule } from '@angular/material/chips';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -54,8 +55,8 @@ import { MatChipsModule } from '@angular/material/chips';
     SubTitleComponent,
     AllConseilsComponent
   ],
-  imports: [
-    BrowserModule,
+  imports: 
+  [ BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
