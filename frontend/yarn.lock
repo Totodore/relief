@@ -180,10 +180,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/cdk@~13.0.0-next.7+89.sha-a662737":
-  version "13.0.4"
-  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-13.0.4.tgz#1f52944b1d7e2d2b6a38487a26e206f0b7e33bbf"
-  integrity sha512-cdCOvNbj2IQ60eQ4Dvt+aPqCp6ZSp+e7QpXicMdbxEk7J8kIcFFy2ZaxURx6wNt6Z+LRLgeasAfWB5zdP/Otfg==
+"@angular/cdk@~14.2.7":
+  version "14.2.7"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-14.2.7.tgz#65eb6fbbeed6120fad4e3913aa66f8b74c853ac3"
+  integrity sha512-/tEsYaUbDSnfEmKVvAMramIptmhI67O+9STjOV0i+74XR2NospeK0fkbywIANu1n3w6AHGMotvRWJrjmbCElFg==
   dependencies:
     tslib "^2.3.0"
   optionalDependencies:
@@ -265,10 +265,10 @@
     "@types/google.maps" "^3.52.4"
     tslib "^2.3.0"
 
-"@angular/material@~13.0.0-next.7+89.sha-a662737":
-  version "13.0.4"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-13.0.4.tgz#5cda5695d94053e432e98680d6107ff941a13819"
-  integrity sha512-tgTT+bUlab2PRL0cBiF4Y3Y8c8thzfFsBG3Z4+TN8U5D9o+rGOPxqqDpkke+QSJ3ZthhlQVCHp0KXQVvgVIcfQ==
+"@angular/material@~14.2.7":
+  version "14.2.7"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-14.2.7.tgz#678c657197268eba6814c757152f8d178ff08866"
+  integrity sha512-WXHh8pEStpgkXZJmYOg2cI8BSHkV82ET4XTJCNPdveumaCn1UYnaNzsXD13kw5z+zmy8CufhFEzdXTrv/yt7KQ==
   dependencies:
     tslib "^2.3.0"
 
