@@ -16,17 +16,11 @@
             </div>
         </div>
         <div class="overflow-y-scroll flex flex-row gap-3">
-            <app-conseil-card></app-conseil-card>
-            <app-conseil-card></app-conseil-card>
-            <app-conseil-card></app-conseil-card>
-            <app-conseil-card></app-conseil-card>
+            <app-conseil-card *ngFor="let conseil of conseils" [conseil]="conseil"></app-conseil-card>
         </div>
         <app-sub-title [title]="'Piqûre'"></app-sub-title>
         <div class="overflow-y-scroll flex flex-row gap-3">
-            <app-conseil-card></app-conseil-card>
-            <app-conseil-card></app-conseil-card>
-            <app-conseil-card></app-conseil-card>
-            <app-conseil-card></app-conseil-card>
+
 
         </div>
         <div class="mb-16"></div>

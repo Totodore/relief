@@ -8,31 +8,14 @@
 
     <div class="flex flex-row justify-center">
         <mat-chip-listbox selectable multiple class="">
-            <mat-chip-option selected *ngFor="let tag of tagList" class="" color="accent">{{tag}}</mat-chip-option>
+            <mat-chip-option selected *ngFor="let tag of conseilTagsList" class="" color="accent">{{tag}}</mat-chip-option>
         </mat-chip-listbox>
     </div>
     
 
 
     <div class="flex flex-row flex-wrap gap-3 justify-center">
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
-        <app-conseil-card></app-conseil-card>
+        <app-conseil-card *ngFor="let conseil of conseils" [conseil]="conseil"></app-conseil-card>
 
     </div>
     <div class="h-16"></div>
