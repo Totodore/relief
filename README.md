@@ -1,5 +1,5 @@
 [![CodeQL](https://github.com/Totodore/relief/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/Totodore/relief/actions/workflows/github-code-scanning/codeql)
-
+[![CI](https://github.com/Totodore/relief/actions/workflows/frontend-ci.yml/badge.svg)](https://github.com/Totodore/relief/actions/workflows/frontend-ci.yml)
 # Manuel de déploiement
 
 ### Ce repo intègre une pipeline de CI/CD avec Github Actions
