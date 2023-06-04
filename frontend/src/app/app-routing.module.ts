@@ -30,7 +30,7 @@ const routes: Routes = [
     component: FirstAidPageComponent
   },
   {
-    path: "map",
+    path: "medecin/map",
     component: FullScreenMapComponent
   }
 
