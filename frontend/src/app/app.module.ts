@@ -28,6 +28,7 @@ import { MatRippleModule } from '@angular/material/core';
 import { ConseilCardComponent } from './components/conseil-card/conseil-card.component';
 import { SubTitleComponent } from './components/sub-title/sub-title.component';
 import { AllConseilsComponent } from './components/all-conseils/all-conseils.component';
+import { MatChipsModule } from '@angular/material/chips';
 
 
 
@@ -66,7 +67,8 @@ import { AllConseilsComponent } from './components/all-conseils/all-conseils.com
     MatFormFieldModule,
     MatInputModule,
     MatBadgeModule,
-    MatRippleModule
+    MatRippleModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
