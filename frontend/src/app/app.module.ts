@@ -27,6 +27,7 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { MatRippleModule } from '@angular/material/core';
 import { ConseilCardComponent } from './components/conseil-card/conseil-card.component';
 import { SubTitleComponent } from './components/sub-title/sub-title.component';
+import { AllConseilsComponent } from './components/all-conseils/all-conseils.component';
 
 
 
@@ -49,7 +50,8 @@ import { SubTitleComponent } from './components/sub-title/sub-title.component';
     SearchBarComponent,
     ForumCardComponent,
     ConseilCardComponent,
-    SubTitleComponent
+    SubTitleComponent,
+    AllConseilsComponent
   ],
   imports: [
     BrowserModule,

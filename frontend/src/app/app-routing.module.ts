@@ -6,6 +6,7 @@ import { MedecinPageComponent } from './components/medecin-page/medecin-page.com
 import { ProfilePageComponent } from './components/profile-page/profile-page.component';
 import { FirstAidPageComponent } from './components/first-aid-page/first-aid-page.component';
 import { FullScreenMapComponent } from './components/full-screen-map/full-screen-map.component';
+import { AllConseilsComponent } from './components/all-conseils/all-conseils.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: "medecin/map",
     component: FullScreenMapComponent
+  }, 
+  {
+    path: "conseils",
+    component: AllConseilsComponent
   }
 
 ];
