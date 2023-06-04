@@ -14,7 +14,13 @@ export class MapComponent implements AfterViewInit {
     this.map = L.map('map-co', {
       center: [48.866, 2.333],
       zoom: 12,
-      zoomControl: false
+      zoomControl: false,
+      dragging: false,
+      touchZoom: false,
+      doubleClickZoom: false,
+      scrollWheelZoom: false,
+      boxZoom: false,
+      keyboard: false
     });
 
     const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
