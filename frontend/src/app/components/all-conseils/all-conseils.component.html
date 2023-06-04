@@ -6,12 +6,12 @@
         </div>
     </a>
 
-    <mat-chip-listbox aria-label="Fish selection">
-        <mat-chip-option>One fish</mat-chip-option>
-        <mat-chip-option>Two fish</mat-chip-option>
-        <mat-chip-option color="accent" selected>Accent fish</mat-chip-option>
-        <mat-chip-option color="warn">Warn fish</mat-chip-option>
-    </mat-chip-listbox>
+    <div class="flex flex-row justify-center">
+        <mat-chip-listbox selectable multiple class="">
+            <mat-chip-option selected *ngFor="let tag of tagList" class="" color="accent">{{tag}}</mat-chip-option>
+        </mat-chip-listbox>
+    </div>
+    
 
 
     <div class="flex flex-row flex-wrap gap-3 justify-center">
