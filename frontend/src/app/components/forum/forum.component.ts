@@ -7,9 +7,49 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ForumComponent implements OnInit {
 
+
+  public search: string = '';
+
+  public readonly data = [
+    {
+      question: "'Qu\'est-ce que la vie ?'",
+      tagList: ['Philosophie'],
+      comments: 123,
+      likes: 21
+    },
+    {
+      question: "'Meilleure réaction en cas de boutons ?'",
+      comments: 34,
+      likes: 76
+    },
+    {
+      question: "'Bébé malade ?'",
+      tagList: ['Enfance', 'Naissance'],
+      comments: 343,
+      likes: 243
+    },
+    {
+      question: "'Comment se maintenir en forme ?'",
+      tagList: ['Adultes'],
+      comments: 12,
+      likes: 4
+    },
+  ];
+
+  public filteredData: typeof this.data = this.data;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+
+  public onSearch() {
+    this.filteredData = this.data.filter((item) => {
+      if (this.search === '') {
+        return true;
+      }
+      return item.question.includes(this.search);
+    });
+  }
 }

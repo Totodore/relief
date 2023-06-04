@@ -17,7 +17,7 @@ import { FirstAidPageComponent } from './components/first-aid-page/first-aid-pag
 import { ProfilePageComponent } from './components/profile-page/profile-page.component';
 import { TitleComponent } from './components/title/title.component';
 import { CardComponent } from './components/card/card.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MapComponent } from './components/map/map.component';
@@ -56,6 +56,7 @@ import { MatBadgeModule } from '@angular/material/badge';
     MatIconModule,
     MatToolbarModule, 
     FormsModule,
+    ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
     MatBadgeModule
