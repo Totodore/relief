@@ -1,4 +1,4 @@
 <div class="bg-gray-200 mt-5 rounded-xl flex flex-row p-4 items-center">
     <mat-icon class="text-gray-400 mr-2">search</mat-icon>
-    <input type="text" placeholder="Rechercher" name="search" class="bg-gray-200 outline-none font-poppins text-lg">
+    <input [(ngModel)]="search" (ngModelChange)="searchChange.emit($event)" type="text" placeholder="Rechercher" name="search" class="bg-gray-200 outline-none font-poppins text-lg">
 </div>
