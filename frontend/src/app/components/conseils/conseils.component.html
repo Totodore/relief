@@ -1,12 +1,35 @@
-<div>
+<div class="overflow-x-scroll">
     <app-title [title]="'Conseils'"></app-title>
     
-    <div class="w-full flex flex-col justify-center px-5 mt-5">
-        <div class="bg-primary h-32 rounded-xl relative">
+    <div class="w-full flex flex-col justify-center px-5 mt-5 overflow-y-visible">
+        <div matRipple class="bg-primary h-32 rounded-xl relative cursor-pointer">
             <span class="font-poppins text-xl pt-6 pl-3 inline-block">Conseil du jour</span>
             <mat-icon class="absolute right-6 top-12">arrow_forward</mat-icon>
         </div>
         <app-search-bar class="mt-2"></app-search-bar>
+
+        <div class="flex flex-row justify-between items-center">
+            <app-sub-title [title]="'Brûlure'"></app-sub-title>
+            <div matRipple class="flex items-center cursor-pointer" routerLink="conseils">
+                <span class="font-poppins text-sm">Voir tous les conseils</span>
+                <mat-icon>arrow_forward</mat-icon> 
+            </div>
+        </div>
+        <div class="overflow-y-scroll flex flex-row gap-3">
+            <app-conseil-card></app-conseil-card>
+            <app-conseil-card></app-conseil-card>
+            <app-conseil-card></app-conseil-card>
+            <app-conseil-card></app-conseil-card>
+        </div>
+        <app-sub-title [title]="'Piqûre'"></app-sub-title>
+        <div class="overflow-y-scroll flex flex-row gap-3">
+            <app-conseil-card></app-conseil-card>
+            <app-conseil-card></app-conseil-card>
+            <app-conseil-card></app-conseil-card>
+            <app-conseil-card></app-conseil-card>
+
+        </div>
+        <div class="mb-16"></div>
     </div>
     
 </div>

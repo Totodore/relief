@@ -1,8 +1,8 @@
-<div class="flex flex-col mt-5 px-5">
+<div class="flex flex-col mt-5 px-5 overflow-hidden">
 	<app-search-bar [(search)]="search" (searchChange)="onSearch()"></app-search-bar>
 
 	<div class="mt-2">
 		<app-forum-card *ngFor="let card of filteredData" [question]="card.question" [comments]="card.comments"
-			[likes]="card.likes" [tagList]="card.tagList || []"></app-forum-card>
+			[likes]="card.likes" [tagList]="card.tagList || []" [isCertified]="card.isCertified || false"></app-forum-card>
 	</div>
 </div>

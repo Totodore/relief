@@ -12,27 +12,29 @@ export class ForumComponent implements OnInit {
 
   public readonly data = [
     {
-      question: "'Qu\'est-ce que la vie ?'",
+      question: "Qu\'est-ce que la vie ?",
       tagList: ['Philosophie'],
       comments: 123,
-      likes: 21
+      likes: 21, 
+      isCertified: true
     },
     {
-      question: "'Meilleure réaction en cas de boutons ?'",
+      question: "Meilleure réaction en cas de boutons ?",
       comments: 34,
       likes: 76
     },
     {
-      question: "'Bébé malade ?'",
+      question: "Bébé malade ?",
       tagList: ['Enfance', 'Naissance'],
       comments: 343,
       likes: 243
     },
     {
-      question: "'Comment se maintenir en forme ?'",
+      question: "Comment se maintenir en forme ?",
       tagList: ['Adultes'],
       comments: 12,
-      likes: 4
+      likes: 4,
+      isCertified: true
     },
   ];
 
