@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CompoTestComponent } from './components/compo-test/compo-test.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
@@ -25,6 +24,10 @@ import { FullScreenMapComponent } from './components/full-screen-map/full-screen
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { ForumCardComponent } from './components/forum-card/forum-card.component';
 import { MatBadgeModule } from '@angular/material/badge';
+import { MatRippleModule } from '@angular/material/core';
+import { ConseilCardComponent } from './components/conseil-card/conseil-card.component';
+import { SubTitleComponent } from './components/sub-title/sub-title.component';
+
 
 
 
@@ -33,7 +36,6 @@ import { MatBadgeModule } from '@angular/material/badge';
 @NgModule({
   declarations: [
     AppComponent,
-    CompoTestComponent,
     NavbarComponent,
     ConseilsComponent,
     ForumComponent,
@@ -45,7 +47,9 @@ import { MatBadgeModule } from '@angular/material/badge';
     MapComponent,
     FullScreenMapComponent,
     SearchBarComponent,
-    ForumCardComponent
+    ForumCardComponent,
+    ConseilCardComponent,
+    SubTitleComponent
   ],
   imports: [
     BrowserModule,
@@ -59,7 +63,8 @@ import { MatBadgeModule } from '@angular/material/badge';
     ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
