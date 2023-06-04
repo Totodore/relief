@@ -9,7 +9,7 @@ import { Input } from '@angular/core';
   styleUrls: ['./conseil-card.component.css']
 })
 export class ConseilCardComponent implements OnInit {
-  @Input() conseil!: Conseil;
+  @Input() conseil: Conseil = new Conseil();
   public name!: string;
   public description!: string;
   public tag!: conseilTags;
