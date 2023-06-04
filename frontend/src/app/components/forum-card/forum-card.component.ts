@@ -7,11 +7,11 @@ import { Input } from '@angular/core';
   styleUrls: ['./forum-card.component.css']
 })
 export class ForumCardComponent implements OnInit {
-  @Input() likes = 0;
-  @Input() comments = 0;
-  @Input() question = ''; 
-  @Input() isCertified = false;
-  @Input() tagList = [];
+  @Input() likes: number = 0;
+  @Input() comments: number = 0;
+  @Input() question: string = ''; 
+  @Input() isCertified: boolean = false;
+  @Input() tagList: string[] = [];
 
   constructor() { }
 

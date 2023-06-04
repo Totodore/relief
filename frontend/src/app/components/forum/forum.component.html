@@ -1,5 +1,10 @@
 <div class="flex flex-col mt-5 px-5">
     <app-search-bar></app-search-bar>
 
-    <app-forum-card [question]="'Qu\'est-ce que la vie ?'" class="mt-2"></app-forum-card>
+    <app-forum-card [question]="'Qu\'est-ce que la vie ?'" [tagList]="['Philosophie']" [comments]="123" [likes]="21" class="mt-2"></app-forum-card>
+    <app-forum-card [question]="'Meilleure réaction en cas de boutons ?'" [comments]="34" [likes]="76"></app-forum-card>
+    <app-forum-card [question]="'Bébé malade ?'" [tagList]="['Enfance','Naissance']" [comments]="343" [likes]="243"></app-forum-card>
+    <app-forum-card [question]="'Comment se maintenir en forme ?'" [tagList]="['Adultes']" [comments]="12"
+        [likes]="4"></app-forum-card>
+
 </div>
