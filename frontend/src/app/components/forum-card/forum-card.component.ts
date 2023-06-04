@@ -6,16 +6,11 @@ import { Input } from '@angular/core';
   templateUrl: './forum-card.component.html',
   styleUrls: ['./forum-card.component.css']
 })
-export class ForumCardComponent implements OnInit {
+export class ForumCardComponent {
   @Input() likes: number = 0;
   @Input() comments: number = 0;
   @Input() question: string = ''; 
   @Input() isCertified: boolean = false;
   @Input() tagList: string[] = [];
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

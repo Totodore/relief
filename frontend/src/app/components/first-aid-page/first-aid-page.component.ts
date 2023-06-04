@@ -8,11 +8,6 @@ import { Component, OnInit } from '@angular/core';
 
 })
 
-export class FirstAidPageComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class FirstAidPageComponent {
 
 }

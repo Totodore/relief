@@ -6,12 +6,7 @@ import { Input } from '@angular/core';
   templateUrl: './sub-title.component.html',
   styleUrls: ['./sub-title.component.css']
 })
-export class SubTitleComponent implements OnInit {
+export class SubTitleComponent {
   @Input() title = '';
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

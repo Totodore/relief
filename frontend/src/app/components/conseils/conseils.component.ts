@@ -7,11 +7,6 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './conseils.component.html',
   styleUrls: ['./conseils.component.css']
 })
-export class ConseilsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class ConseilsComponent {
 
 }

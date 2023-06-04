@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './forum.component.html',
   styleUrls: ['./forum.component.css']
 })
-export class ForumComponent implements OnInit {
+export class ForumComponent {
 
 
   public search: string = '';
@@ -39,12 +39,6 @@ export class ForumComponent implements OnInit {
   ];
 
   public filteredData: typeof this.data = this.data;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 
   public onSearch() {
     this.filteredData = this.data.filter((item) => {
