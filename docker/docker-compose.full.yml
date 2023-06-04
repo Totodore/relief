@@ -1,0 +1,30 @@
+version: "3.7"
+services:
+  front:
+    build:
+      context: ./front
+      dockerfile: docker/Dockerfile.front
+    ports:
+      - "8080:80"
+  back:
+    build:
+      context: ./back
+      dockerfile: docker/Dockerfile.back
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: test
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test
+    ports:
+      - "3000:80"
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: test
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql
