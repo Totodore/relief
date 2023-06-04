@@ -5,7 +5,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   templateUrl: './search-bar.component.html',
   styleUrls: ['./search-bar.component.css']
 })
-export class SearchBarComponent implements OnInit {
+export class SearchBarComponent  {
 
 
   @Input()
@@ -13,10 +13,5 @@ export class SearchBarComponent implements OnInit {
 
   @Output()
   public searchChange = new EventEmitter<string>();
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

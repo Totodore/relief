@@ -5,9 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './medecin-page.component.html',
   styleUrls: ['./medecin-page.component.css']
 })
-export class MedecinPageComponent implements OnInit {
-
-  constructor() { }
+export class MedecinPageComponent {
 
   public search: string = '';
 
@@ -45,8 +43,4 @@ export class MedecinPageComponent implements OnInit {
       return item.nom.includes(this.search);
     });
   }
-
-  ngOnInit(): void {
-  }
-
 }
