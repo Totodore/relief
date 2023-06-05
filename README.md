@@ -1,6 +1,8 @@
 [![CodeQL](https://github.com/Totodore/relief/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/Totodore/relief/actions/workflows/github-code-scanning/codeql)
 [![CI](https://github.com/Totodore/relief/actions/workflows/frontend-ci.yml/badge.svg)](https://github.com/Totodore/relief/actions/workflows/frontend-ci.yml)
+
 # Manuel de déploiement
+## Repository github : https://github.com/Totodore/relief
 
 ### Ce repo intègre une pipeline de CI/CD avec Github Actions
 ### Le projet est disponible à cette adresse : [relief.scriptis.fr](https://relief.scriptis.fr)
